@@ -7,6 +7,11 @@ header{
 }
 nav{
   background-color: beige;
+  display: inline-block;
+  width: 80%;
+}
+nav img{
+  width: 10%;
 }
 main{
   background-color: rgb(208, 250, 250);
@@ -16,13 +21,13 @@ footer{
   background-color: honeydew;
   font-size: 65%;
 }
-li{
+/* li{
   display: inline-block;
   width: 30%;
   height: 80px;
   text-align: center;
   background-color: rgb(242, 255, 154);
-}
+} */
 h1{
   text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -30,4 +35,19 @@ h1{
 }
 p{
   line-height: 120%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+.grid img{
+  width: 100%;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
